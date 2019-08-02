@@ -2,22 +2,22 @@
   <footer>
     <!-- As a link -->
     <b-navbar :sticky="true" variant="faded" type="light">
-      <b-navbar-brand>{{siteName}}</b-navbar-brand>
-      <ul class="navbar-nav justify-content-center" style="width: 60% !important; margin: 0 auto;">
-        <li class="nav-item">
-          <a href="#" class="nav-link">Link</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Link</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Link</a>
-        </li>
-      </ul>
-      <div class="collapse navbar-collapse flex-grow-2 text-right">
-        <ul class="navbar-nav ml-auto flex-nowrap">
+      <a href="/" class="navbar-brand d-flex w-50 mr-auto">{{siteName}}</a>
+      <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+        <ul class="navbar-nav w-100 justify-content-center">
           <li class="nav-item">
-            <a class="nav-link">&copy; {{ moment.format("YYYY") }}</a>
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link">{{moment.format("YYYY")}} &copy; All rights reserved.</a>
           </li>
         </ul>
       </div>

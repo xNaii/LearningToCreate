@@ -3,6 +3,7 @@
 import Main from "./pages/Main.vue";
 import Build from "./pages/Build.vue";
 import Contact from "./pages/Contact.vue";
+import Login from "./pages/auth/Login.vue";
 
 var siteName = "Your Website";
 export const settings = {
@@ -22,6 +23,11 @@ export const settings = {
       path: "/contact",
       component: Contact,
       meta: { title: siteName + " - Contacts" }
+    },
+    {
+      path: "/login",
+      component: Login,
+      meta: { title: siteName + " - Login" }
     }
   ]
 };

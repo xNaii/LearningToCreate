@@ -10,7 +10,9 @@
         </b-col>
         <b-col md="4">
           <center>
-            <b-button variant="light" class="login">LOGIN IN</b-button>
+            <router-link to="/login">
+              <b-button variant="light" class="login">LOGIN</b-button>
+            </router-link>
           </center>
         </b-col>
       </b-row>
@@ -52,24 +54,6 @@ export default {
 
 .title {
   font-family: "Open Sans", sans-serif;
-}
-
-.login {
-  color: rgba(0, 0, 0, 0.87);
-  padding: 4px 8px;
-  font-size: 0.8125rem;
-  min-width: 64px;
-  /*box-sizing: border-box;*/
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  font-weight: 500;
-  line-height: 1.75;
-  border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.23);
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
 }
 
 .divider {
