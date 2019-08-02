@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="331a3a77-07b4-491f-8787-485ec6504320" name="Default Changelist" comment="" />
+    <list default="true" id="331a3a77-07b4-491f-8787-485ec6504320" name="Default Changelist" comment="Node_Modules" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564762362789</updated>
       <workItem from="1564762366736" duration="620000" />
+      <workItem from="1564763017817" duration="688000" />
     </task>
     <task id="LOCAL−00001" summary="Node_Modules">
       <created>1564762966287</created>
@@ -96,7 +97,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
