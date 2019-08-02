@@ -10,37 +10,44 @@
         </p>
         <table>
           <tr>
-            <td colspan="2">
+            <td colspan="3">
               <center>Work Hours</center>
             </td>
           </tr>
           <tr>
-            <td style="width: 50px;">I</td>
-            <td>| 8 - 17</td>
+            <td style="width: 40px;">I</td>
+            <td style="min-width: 25px;">|</td>
+            <td>8 - 17</td>
           </tr>
           <tr>
             <td>II</td>
-            <td>| 8 - 17</td>
+            <td>|</td>
+            <td>8 - 17</td>
           </tr>
           <tr>
             <td>III</td>
-            <td>| 8 - 17</td>
+            <td>|</td>
+            <td>8 - 17</td>
           </tr>
           <tr>
             <td>IV</td>
-            <td>| 8 - 17</td>
+            <td>|</td>
+            <td>8 - 17</td>
           </tr>
           <tr>
             <td>V</td>
-            <td>| 8 - 17</td>
+            <td>|</td>
+            <td>8 - 17</td>
           </tr>
           <tr>
             <td>VI</td>
-            <td>| Closed</td>
+            <td>|</td>
+            <td>Closed</td>
           </tr>
           <tr>
             <td>VII</td>
-            <td>| Closed</td>
+            <td>|</td>
+            <td>Closed</td>
           </tr>
         </table>
         <a href></a>
