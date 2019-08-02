@@ -2,16 +2,18 @@
   <div class="container-fluid">
     <Navbar/>
     <router-view></router-view>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default {
   name: "Container",
   components: {
-    Navbar
+    Navbar, Footer
   }
 };
 </script>
