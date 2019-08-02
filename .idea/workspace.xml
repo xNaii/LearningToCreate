@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564762362789</updated>
       <workItem from="1564762366736" duration="620000" />
-      <workItem from="1564763017817" duration="688000" />
+      <workItem from="1564763017817" duration="885000" />
     </task>
     <task id="LOCAL−00001" summary="Node_Modules">
       <created>1564762966287</created>
@@ -95,6 +95,31 @@
             </State>
           </value>
         </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State>
@@ -103,11 +128,6 @@
           </value>
         </entry>
       </map>
-    </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
