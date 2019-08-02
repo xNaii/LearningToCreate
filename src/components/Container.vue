@@ -20,11 +20,11 @@ export default {
 <style scoped>
 .container-fluid {
   margin-top: 18px;
-  max-width: 94%;
+  max-width: 85%;
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1500px;
+    max-width: 1600px;
   }
 }
 </style>

@@ -93,16 +93,14 @@ export default {
   padding-left: 10px;
   padding-top: 6px;
   padding-bottom: 8px;
-  font-size: 19px;
+  font-size: 14px;
   color: #6c757d;
-  border: 1.2px solid grey;
   border-radius: 6px;
   background-color: #f8f9fa;
 }
 
 .links a:hover {
   background-color: #e2e6ea;
-  border-color: #343a40;
   text-decoration: none;
 }
 

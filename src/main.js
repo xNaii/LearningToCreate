@@ -15,19 +15,19 @@ Vue.use(BootstrapVue);
 Vue.use(VueRouter);
 
 const router = new VueRouter({
-  routes: settings.routes,
-  mode: "history"
+    routes: settings.routes,
+    mode: "history"
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title;
-  next();
+    document.title = to.meta.title;
+    next();
 });
 
 Vue.config.productionTip = false;
 
 new Vue({
-  el: "#app",
-  router,
-  render: h => h(App)
+    el: "#app",
+    router,
+    render: h => h(App)
 });
